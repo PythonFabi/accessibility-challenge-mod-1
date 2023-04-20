@@ -37,6 +37,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ReadME template https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 Code Refactor Starter Code from https://github.com/coding-boot-camp/urban-octo-telegram 
+Help with css code comments about ´list-style-type´, ´background-image, -size, and -poisition´ with https://developer.mozilla.org/en-US/
 
 ## License
 

@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Determines the background color of the body, which is white */
 body {
     background-color: #d9dcd6;
 }
 
+/* Padding for all header elements, is 20px to the border, prioritized font-family is ´Trebuchet MS´, background-color of body overwritten with blue Hex color, white font */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,18 @@ header {
     color: #ffffff;
 }
 
+/* display property for header h1 (block) used to set new display value, so it wouldn´t start on a new line  */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+/* abbr selector to select abbr inside Horiseon to mark the word SEO with a different color */
+header h1 abbr {
     color: #d9dcd6;
 }
 
+/* nav in header top padding to 15px, outside of nav invisible border 20px on the right, floats on the right side, prioritized font-family ´Gill Sans´ and 20px font size */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,25 +37,27 @@ header nav {
     font-size: 20px;
 }
 
+/* removes list item markers, in this case the bullets */
 header nav ul {
     list-style-type: none;
 }
 
+/* display property to inline-block, margin outside box of list-items 25px on the left */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* links inside the list items are white in the navigation bar and have no text-decoration, in the case of links the underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
 
-
+/* the section with the hero class is 800px height, 100% of the pages size wide and has a margin on the bottom of 25px, the background-image, which takes most of the pages size,
+is located in the images folder, within the assets folder, found with the specific url, the background-size preserves ratio of image and shrinks it
+to smallest possible size to fill container */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,21 +67,59 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+/* All paragraphs have the same size of 16px. */
+p {
+    font-size: 16px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* the content section, in which the three following sections are embedded, has a width of 75% of the page, is displayed as inline-block and margin-left: 20px */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* SEO section text and picture, margin in the bottom 20px, padding inside border 50px on all sides, content height of 300px, prioritize ´Gil Sans`, background-color blue, white font   */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* SEO img floats on the left of text about SEO and has a margin of 25px on left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Online Reputation Management img floats on the right of paragraph about Online Reputation Management and has a margin of 25px */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
 
 .benefits {
     margin-right: 20px;
@@ -133,33 +178,6 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
 }
 
 .search-engine-optimization img {
