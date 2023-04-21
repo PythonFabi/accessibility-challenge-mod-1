@@ -11,7 +11,8 @@ This was a great opportunity for me to learn more about accessibility, even by w
 N/A
 
 ## Usage
-Click here to view [Horiseon](https://pythonfabi.github.io/accessibility-challenge-mod-1/)
+Click here to view [Horiseon](https://pythonfabi.github.io/accessibility-challenge-mod-1/).
+
 Scroll through the site to get the information on the services Horiseon provides to get your brand up and running! The focus lies on SEO, but also on getting
 you brand out there as big as possible. 
 
